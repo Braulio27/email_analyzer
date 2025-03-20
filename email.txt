@@ -1,0 +1,98 @@
+Delivered-To: y_abarca@municarrillo.go.cr
+Received: by 2002:a05:7300:4785:b0:162:a3cc:babb with SMTP id r5csp312749dyk;
+        Tue, 18 Mar 2025 21:25:22 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IEOl6qBDrKmjLHmTJ4fnEFKTOnBH55DuZvj/bwBDogixc1XQZ02R+FR+CM7Usts4QVnbKfR
+X-Received: by 2002:a05:622a:4d3:b0:476:a713:f783 with SMTP id d75a77b69052e-477083fa84amr21764501cf.47.1742358322352;
+        Tue, 18 Mar 2025 21:25:22 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1742358322; cv=none;
+        d=google.com; s=arc-20240605;
+        b=EqFAwpUqZ1Qy7RZsZwjIvCHITIO3gnGjrJTAFxJhpmfAAhxCdJ2n9dZHmhCP9+p5da
+         CuOcQi53pvAZIlJgVGK+Pl2DfeD6te+8nclczzD/HKl4jXhEA9dIKWONPQKqrEmFl1om
+         IvzZkURE+7/mQYRcYRhUemFSAFXx9yoa469BCoZhGfUTBos20+llE2U8t0VsEGQXd3vt
+         EaD7Ii36hLSD7p7JkPFvEXhh2g002bUZ8u1WvyIz38XUn91gTedSpko7Q7DjP9PDhRSC
+         RY2ILnt+YLw/71Clv0tFf/yOE6gduMP+uB9K9S60qXKcDEAq+8Lq/QMhWXXa0tqsT2Jz
+         VIHA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=date:mime-version:priority:importance:list-unsubscribe:reply-to
+         :message-id:to:from:subject:content-transfer-encoding;
+        bh=PEcYtEsbO66bO6rharsiPCm9bxyh96LwVb/uC3K+aUI=;
+        fh=cfWmoGuBGyA28U9s3zI8yz+1H8voNnqo0+Ca2KsHko4=;
+        b=VMfCpBHNvSK5bTGIMMR7Yf0V/a7jj2ASV70ybpJOwv89GXGMIkMT6wMA2X1a8Ffh/K
+         o4JrEdQuhGQHvooDziEYDY4PK2BE45YIwMC4t7TrXlmUti/PIlHr7BWabar8JQ+b1bqg
+         XD7gbpp/12JxB1SyI0NfnyOl/m9OjWa3kMnutRLS4OhTsNN5NwI3reg0MgR5tu/HCsEZ
+         wfBmmGLwAVdVdiFTYIBDnu2leQXF6qUJTNpvfJkVHiwcGt2nn91jsnJIYQ9hHe5Twesd
+         Usfg2HFPp9s1b+Fhbq+SHlpbRJIE5z1RJSryUWhLE32ZPj6CL3ZEhZFSegXVbWHTZjZj
+         dQ1Q==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=none (google.com: cfecontigoapp@vps-4c50048d.vps.ovh.us does not designate permitted sender hosts) smtp.mailfrom=CFEContigoApp@vps-4c50048d.vps.ovh.us
+Return-Path: <CFEContigoApp@vps-4c50048d.vps.ovh.us>
+Received: from vps-4c50048d.vps.ovh.us (vps-4c50048d.vps.ovh.us. [2604:2dc0:101:200::1ec4])
+        by mx.google.com with ESMTPS id d75a77b69052e-476bb61a8e2si128261761cf.107.2025.03.18.21.25.22
+        for <y_abarca@municarrillo.go.cr>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 18 Mar 2025 21:25:22 -0700 (PDT)
+Received-SPF: none (google.com: cfecontigoapp@vps-4c50048d.vps.ovh.us does not designate permitted sender hosts) client-ip=2604:2dc0:101:200::1ec4;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: cfecontigoapp@vps-4c50048d.vps.ovh.us does not designate permitted sender hosts) smtp.mailfrom=CFEContigoApp@vps-4c50048d.vps.ovh.us
+Received: by vps-4c50048d.vps.ovh.us (Postfix, from userid 0)
+	id F11BF47AB6; Wed, 19 Mar 2025 04:25:21 +0000 (UTC)
+X-Mailer: mail (GNU Mailutils 3.7)
+Content-Type: multipart/mixed; boundary="a5b3519860742e0e1340784f51c54d79"
+Content-Transfer-Encoding: 7bit
+Subject: Pago Pendiente AK46GKP4 - CFE
+From: CFE Facturacion 923 <CFEContigoApp@cfe.com>
+To: <y_abarca@municarrillo.go.cr>
+Message-Id: <sXCiGvDuFJr7YOHVDtUd5+4Vk=a=prKhPTPADvFF@vps-4c50048d.vps.ovh.us>
+Reply-To: <fiscaliageneral@cfe.com>
+X-Originating-Email: CFEContigoApp@vps-4c50048d.vps.ovh.us
+List-Unsubscribe: <mailto:fiscaliageneral@cfe.com?subject=unsubscribe>
+Importance: High
+X-Priority: 1 (Highest)
+Priority: Urgent
+MIME-Version: 1.0
+Date: Wed, 19 Mar 2025 04:25:21 +0000 (UTC)
+
+--a5b3519860742e0e1340784f51c54d79
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+CjxoZWFkPgo8L2hlYWQ+Cjxib2R5Pgo8ZGl2CiBzdHlsZT0iYm9yZGVyOiAxcHggc29s
+aWQgcmdiKDIyMSwgMjIxLCAyMjEpOyBtYXJnaW46IDIwcHggYXV0bzsgYmFja2dyb3VuZDogcmdi
+KDI1NSwgMjU1LCAyNTUpIG5vbmUgcmVwZWF0IHNjcm9sbCAwJTsgd2lkdGg6IDEwMCU7IG1heC13
+aWR0aDogNjAwcHg7IC1tb3otYmFja2dyb3VuZC1jbGlwOiBpbml0aWFsOyAtbW96LWJhY2tncm91
+bmQtb3JpZ2luOiBpbml0aWFsOyAtbW96LWJhY2tncm91bmQtaW5saW5lLXBvbGljeTogaW5pdGlh
+bDsgb3ZlcmZsb3c6IGhpZGRlbjsiPgo8ZGl2CiBzdHlsZT0icGFkZGluZzogMjBweDsgYmFja2dy
+b3VuZC1jb2xvcjogcmdiKDAsIDEyMSwgMTA3KTsgY29sb3I6IHdoaXRlOyB0ZXh0LWFsaWduOiBj
+ZW50ZXI7IGZvbnQtc2l6ZTogMjRweDsiPkNGRQotIEZhY3R1cmEgRWxlY3RyJm9hY3V0ZTtuaWNh
+PC9kaXY+CjxkaXYgc3R5bGU9InBhZGRpbmc6IDIwcHg7IGNvbG9yOiByZ2IoNTEsIDUxLCA1MSk7
+Ij4KPHA+RXN0aW1hZG8vYSA8c3Ryb25nPnlfYWJhcmNhQG11bmljYXJyaWxsby5nby5jcjwvc3Ry
+b25nPiw8L3A+ClRlIGluZm9ybWFtb3MgcXVlIHRlbiZlYWN1dGU7cyBmYWN0dXJhcyBwZW5kaWVu
+dGVzIGRlIHBhZ28gcXVlCmRlYmVyJmFhY3V0ZTtuIHNlciBhYm9uYWRhcyBlbiBsYXMgcHImb2Fj
+dXRlO3hpbWFzIDcyIGhvcmFzLjxicj4KPGJyPgpUdSBFbmVyZyZpYWN1dGU7YSBlc3QmYWFjdXRl
+OyBwcm9ncmFtYWRhIHBhcmEgc2VyIGFwYWdhZGEgZWwKMjAvMDMvMjAyNCBwb3IgZmFsdGEgZGUg
+cGFnbyBkZSBsYSBDdWVudGEuCjxwPjxzdHJvbmc+TW9udG86IDI3LjM4NiwxMTwvc3Ryb25nPjwv
+cD4KPHA+PHN0cm9uZz5GZWNoYTombmJzcDs8L3N0cm9uZz48c3Bhbgogc3R5bGU9ImZvbnQtd2Vp
+Z2h0OiBib2xkOyI+MTkvMDMvMjAyNTwvc3Bhbj48L3A+CjxwPjxzdHJvbmc+U0VSSUU6IEFLNDZH
+S1A0PC9zdHJvbmc+PC9wPgo8cD5QdWVkZSBhY2NlZGVyIGFsIGRvY3VtZW50byBjb21wbGV0byBo
+YWNpZW5kbyBjbGljIGVuIGVsCnNpZ3VpZW50ZSBlbmxhY2U6PC9wPgo8cD48L3A+CjxhCiBzdHls
+ZT0ibWFyZ2luOiAyMHB4IDBwdDsgcGFkZGluZzogMTBweCAyMHB4OyBiYWNrZ3JvdW5kLWNvbG9y
+OiByZ2IoMiwgMTM2LCAyMDkpOyBjb2xvcjogd2hpdGU7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsi
+CiBocmVmPSJodHRwczovL3ZtaTI1MTEyMTYuY29udGFib3NlcnZlci5uZXQvP190YXNrPW1haWwm
+X2FjdGlvbj1nZXQmX21ib3g9SU5CT1gmX3VpZD05NDk0OCZfdG9rZW49MzgzYTY2M2IwZDlhMjIx
+NzcxNmMwZjVkMTI5OWZmNTI5ZGIyOTgyYjBkZGNiNGY5ZTgzODY2YTIxNWQwMDIzNyZfcGFydD03
+LjIuNiZfZW1iZWQ9MSZfbWltZWNsYXNzPWltYWdlIj5WZXIgRmFjdHVyYTwvYT4KPHA+PC9wPgo8
+cD5TaSB0aWVuZSBhbGd1bmEgcHJlZ3VudGEgbyBuZWNlc2l0YSBhc2lzdGVuY2lhIGFkaWNpb25h
+bCwgbm8KZHVkZSBlbiBwb25lcnNlIGVuIGNvbnRhY3RvIGNvbiBudWVzdHJvIGNlbnRybyBkZSBh
+dGVuY2kmb2FjdXRlO24KYWwgY2xpZW50ZS48L3A+CjxwPkdyYWNpYXMgcG9yIHN1IGF0ZW5jaSZv
+YWN1dGU7bi48L3A+CjxwPkF0ZW50YW1lbnRlLDwvcD4KPHA+PHN0cm9uZz5EZXBhcnRhbWVudG8g
+ZGUgRmFjdHVyYWNpJm9hY3V0ZTtuPGJyPgoxMDoyNSBQTTxicj4KMTkvMDMvMjAyNTxicj4KPC9z
+dHJvbmc+PC9wPgo8L2Rpdj4KPGRpdgogc3R5bGU9InBhZGRpbmc6IDE1cHg7IGJhY2tncm91bmQt
+Y29sb3I6IHJnYigyMzgsIDIzOCwgMjM4KTsgdGV4dC1hbGlnbjogY2VudGVyOyBmb250LXNpemU6
+IDEycHg7IGNvbG9yOiByZ2IoMTE5LCAxMTksIDExOSk7Ij4KPHA+RXN0ZSBjb3JyZW8gZWxlY3Ry
+Jm9hY3V0ZTtuaWNvIGhhIHNpZG8gZW1pdGlkbyBwb3IgbGEKQ29taXNpJm9hY3V0ZTtuIEZlZGVy
+YWwgZGUgRWxlY3RyaWNpZGFkIChDRkUpLiBUb2RvcyBsb3MgZGVyZWNob3MKcmVzZXJ2YWRvcy48
+L3A+CjwvZGl2Pgo8L2Rpdj4KPC9ib2R5Pgo8L2h0bWw+Cg==
+
+
+--a5b3519860742e0e1340784f51c54d79--
